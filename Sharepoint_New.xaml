@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1532,16374</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1532,16501</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Sharepoint_New_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -132,7 +132,7 @@
       <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sharepoint_New" sap:VirtualizedContainerService.HintSize="1542,16269" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sharepoint_New" sap:VirtualizedContainerService.HintSize="1542,16356" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="Rem_Col_Syt_dt" />
       <Variable x:TypeArguments="sd:DataTable" Name="Rem_Col_Erp_dt" />
@@ -234,13 +234,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:SendOutlookMail>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1480,15874" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_35" ShowExcelWindow="False">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="1480,15961" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_35" ShowExcelWindow="False">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1446,15787" sap2010:WorkflowViewState.IdRef="Sequence_4970">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1446,15874" sap2010:WorkflowViewState.IdRef="Sequence_4970">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -249,7 +249,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1384,52" sap2010:WorkflowViewState.IdRef="CommentOut_691">
               <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,192" sap2010:WorkflowViewState.IdRef="Sequence_5149">
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,193" sap2010:WorkflowViewState.IdRef="Sequence_5149">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -272,7 +272,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <Sequence DisplayName="SharePoint" sap:VirtualizedContainerService.HintSize="1384,14858" sap2010:WorkflowViewState.IdRef="Sequence_5145">
+            <Sequence DisplayName="SharePoint" sap:VirtualizedContainerService.HintSize="1384,14945" sap2010:WorkflowViewState.IdRef="Sequence_5145">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -281,13 +281,13 @@
               </sap:WorkflowViewStateService.ViewState>
               <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1322,52" sap2010:WorkflowViewState.IdRef="CommentOut_681">
                 <ui:CommentOut.Body>
-                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="750,4033" sap2010:WorkflowViewState.IdRef="Sequence_5121">
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="750,4031" sap2010:WorkflowViewState.IdRef="Sequence_5121">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="SharePoint Sequence" sap:VirtualizedContainerService.HintSize="688,3922" sap2010:WorkflowViewState.IdRef="Sequence_5119">
+                    <Sequence DisplayName="SharePoint Sequence" sap:VirtualizedContainerService.HintSize="688,3920" sap2010:WorkflowViewState.IdRef="Sequence_5119">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -303,7 +303,7 @@
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:LogMessage>
                       <ui:BuildDataTable DataTable="[Build_dt]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="626,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_15" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;CPQ_x0020_Order_x0020_Number&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Syteline_x0020_Order_x0020_Number&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;ERP_x0020_Order_x0020_Number&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Syteline_x0020_Download_x0020_Status&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;ERP_x0020_Download_x0020_Status&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
-                      <Assign sap:VirtualizedContainerService.HintSize="626,82" sap2010:WorkflowViewState.IdRef="Assign_2730">
+                      <Assign sap:VirtualizedContainerService.HintSize="626,81" sap2010:WorkflowViewState.IdRef="Assign_2730">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">[Current_Time]</OutArgument>
                         </Assign.To>
@@ -311,7 +311,7 @@
                           <InArgument x:TypeArguments="x:String">[Now.ToString]</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Assign sap:VirtualizedContainerService.HintSize="626,82" sap2010:WorkflowViewState.IdRef="Assign_2731">
+                      <Assign sap:VirtualizedContainerService.HintSize="626,81" sap2010:WorkflowViewState.IdRef="Assign_2731">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">[Date_Format_Change]</OutArgument>
                         </Assign.To>
@@ -435,20 +435,20 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:CommentOut>
-                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Filter_dt]" DisplayName="For Each Row in Data Table-For Syteline and ERP" sap:VirtualizedContainerService.HintSize="530,2139" sap2010:WorkflowViewState.IdRef="ForEachRow_109">
+                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Filter_dt]" DisplayName="For Each Row in Data Table-For Syteline and ERP" sap:VirtualizedContainerService.HintSize="530,2137" sap2010:WorkflowViewState.IdRef="ForEachRow_109">
                                 <ui:ForEachRow.Body>
                                   <ActivityAction x:TypeArguments="sd:DataRow">
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row_1" />
                                     </ActivityAction.Argument>
-                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="496,2024" sap2010:WorkflowViewState.IdRef="Sequence_5016">
+                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="496,2155" sap2010:WorkflowViewState.IdRef="Sequence_5016">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2732">
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2732">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[CPQ_Order]</OutArgument>
                                         </Assign.To>
@@ -456,7 +456,7 @@
                                           <InArgument x:TypeArguments="x:String">[Row_1("CPQ Order").ToString.Replace(vblf,"").trim]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <Assign sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_2733">
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,85" sap2010:WorkflowViewState.IdRef="Assign_2733">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[CPQ_ERP_Num]</OutArgument>
                                         </Assign.To>
@@ -467,7 +467,7 @@ CPQ Prod Order"
 ).ToString.Replace(vblf,"").Trim]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2734">
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2734">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[Syteline_Order]</OutArgument>
                                         </Assign.To>
@@ -487,7 +487,7 @@ CPQ Prod Order"
                                           </ui:Target>
                                         </ui:TypeInto.Target>
                                       </ui:TypeInto>
-                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2735">
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2735">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[syteline_number]</OutArgument>
                                         </Assign.To>
@@ -495,7 +495,7 @@ CPQ Prod Order"
                                           <InArgument x:TypeArguments="x:String">[Syteline_Order]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2736">
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2736">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[CPQ_Number_ref]</OutArgument>
                                         </Assign.To>
@@ -712,7 +712,7 @@ CPQ Prod Order"
                                           </ui:Target>
                                         </ui:TypeInto.Target>
                                       </ui:TypeInto>
-                                      <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2739">
+                                      <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2739">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[cpq_number]</OutArgument>
                                         </Assign.To>
@@ -1017,7 +1017,7 @@ CPQ Prod Order"
                   </scg:List>
                 </ui:FilterDataTable.SelectColumns>
               </ui:FilterDataTable>
-              <Sequence DisplayName="Headers Output" sap:VirtualizedContainerService.HintSize="1322,14082" sap2010:WorkflowViewState.IdRef="Sequence_4575">
+              <Sequence DisplayName="Headers Output" sap:VirtualizedContainerService.HintSize="1322,14169" sap2010:WorkflowViewState.IdRef="Sequence_4575">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1052,13 +1052,13 @@ CPQ Prod Order"
                     </scg:List>
                   </ui:FilterDataTable.SelectColumns>
                 </ui:FilterDataTable>
-                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[IndexNumber_Cpq]" DataTable="[Dt_ValidatedFilesData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1260,13642" sap2010:WorkflowViewState.IdRef="ForEachRow_90">
+                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[IndexNumber_Cpq]" DataTable="[Dt_ValidatedFilesData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1260,13729" sap2010:WorkflowViewState.IdRef="ForEachRow_90">
                   <ui:ForEachRow.Body>
                     <ActivityAction x:TypeArguments="sd:DataRow">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1226,13527" sap2010:WorkflowViewState.IdRef="Sequence_4574">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1226,13614" sap2010:WorkflowViewState.IdRef="Sequence_4574">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="sd:DataTable" Name="dt_FailedData2" />
                           <Variable x:TypeArguments="x:String" Name="Item_Number" />
@@ -1085,7 +1085,7 @@ CPQ Prod Order"
                             <InArgument x:TypeArguments="x:String">[Row("Syteline Order Number").ToString]</InArgument>
                           </Assign.Value>
                         </Assign>
-                        <Assign sap:VirtualizedContainerService.HintSize="1164,82" sap2010:WorkflowViewState.IdRef="Assign_2167">
+                        <Assign sap:VirtualizedContainerService.HintSize="1164,81" sap2010:WorkflowViewState.IdRef="Assign_2167">
                           <Assign.To>
                             <OutArgument x:TypeArguments="s:String[]">[ERP_Files]</OutArgument>
                           </Assign.To>
@@ -1152,7 +1152,7 @@ CPQ Prod Order"
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:ForEach>
-                        <Assign sap:VirtualizedContainerService.HintSize="1164,82" sap2010:WorkflowViewState.IdRef="Assign_2169">
+                        <Assign sap:VirtualizedContainerService.HintSize="1164,81" sap2010:WorkflowViewState.IdRef="Assign_2169">
                           <Assign.To>
                             <OutArgument x:TypeArguments="s:String[]">[Syteline_Files]</OutArgument>
                           </Assign.To>
@@ -1502,7 +1502,7 @@ CPQ Prod Order"
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Sequence DisplayName="Convert to Number" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_4165">
+                                          <Sequence DisplayName="Convert to Number" sap:VirtualizedContainerService.HintSize="512,313" sap2010:WorkflowViewState.IdRef="Sequence_4165">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1577,7 +1577,7 @@ CPQ Prod Order"
                                               </ueab:FormatRangeX>
                                               <ueab:WriteRangeX Destination="[Excel.Sheet(&quot;Syteline Data&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="444,159" sap2010:WorkflowViewState.IdRef="WriteRangeX_17" IgnoreEmptySource="False" Source="[Syteline_Dt2]" />
                                             </Sequence>
-                                            <Sequence DisplayName="ERP" sap:VirtualizedContainerService.HintSize="450,81" sap2010:WorkflowViewState.IdRef="Sequence_4164">
+                                            <Sequence DisplayName="ERP" sap:VirtualizedContainerService.HintSize="506,1013" sap2010:WorkflowViewState.IdRef="Sequence_4164">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2337,20 +2337,20 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                             </ui:ReadRange.Range>
                           </ui:ReadRange>
                         </Sequence>
-                        <Sequence DisplayName="Comparing" sap:VirtualizedContainerService.HintSize="1164,8729" sap2010:WorkflowViewState.IdRef="Sequence_4547">
+                        <Sequence DisplayName="Comparing" sap:VirtualizedContainerService.HintSize="1164,8961" sap2010:WorkflowViewState.IdRef="Sequence_4547">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[IndexNumber]" DataTable="[ERP_Dt2]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1102,8618" sap2010:WorkflowViewState.IdRef="ForEachRow_84">
+                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[IndexNumber]" DataTable="[ERP_Dt2]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1102,8850" sap2010:WorkflowViewState.IdRef="ForEachRow_84">
                             <ui:ForEachRow.Body>
                               <ActivityAction x:TypeArguments="sd:DataRow">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="erp_Currentrow" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1068,8503" sap2010:WorkflowViewState.IdRef="Sequence_4546">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1068,8735" sap2010:WorkflowViewState.IdRef="Sequence_4546">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2368,7 +2368,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                   </Assign>
                                   <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1006,52" sap2010:WorkflowViewState.IdRef="CommentOut_692">
                                     <ui:CommentOut.Body>
-                                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,163" sap2010:WorkflowViewState.IdRef="Sequence_5150">
+                                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,293" sap2010:WorkflowViewState.IdRef="Sequence_5150">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2426,13 +2426,13 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <If.Then>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="725,1334" sap2010:WorkflowViewState.IdRef="Sequence_4206">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="725,1333" sap2010:WorkflowViewState.IdRef="Sequence_4206">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="683,1246" sap2010:WorkflowViewState.IdRef="Sequence_4082">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="683,1245" sap2010:WorkflowViewState.IdRef="Sequence_4082">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:Int32" Name="length" />
                                             <Variable x:TypeArguments="x:String" Name="ExpoForm" />
@@ -2445,7 +2445,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="621,1135" sap2010:WorkflowViewState.IdRef="TryCatch_52">
+                                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="621,1134" sap2010:WorkflowViewState.IdRef="TryCatch_52">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2453,7 +2453,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <TryCatch.Try>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="583,907" sap2010:WorkflowViewState.IdRef="Sequence_4083">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="583,906" sap2010:WorkflowViewState.IdRef="Sequence_4083">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="x:String" Name="ItemNumber1" />
                                                 </Sequence.Variables>
@@ -2561,7 +2561,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </ui:InterruptibleWhile>
-                                                <Assign sap:VirtualizedContainerService.HintSize="521,82" sap2010:WorkflowViewState.IdRef="Assign_2205">
+                                                <Assign sap:VirtualizedContainerService.HintSize="521,81" sap2010:WorkflowViewState.IdRef="Assign_2205">
                                                   <Assign.To>
                                                     <OutArgument x:TypeArguments="x:String">[ItemNumber]</OutArgument>
                                                   </Assign.To>
@@ -2610,13 +2610,13 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                   </If>
                                   <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1006,52" sap2010:WorkflowViewState.IdRef="CommentOut_654">
                                     <ui:CommentOut.Body>
-                                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,193" sap2010:WorkflowViewState.IdRef="Sequence_5024">
+                                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,192" sap2010:WorkflowViewState.IdRef="Sequence_5024">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Assign DisplayName="This one for erp" sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2207">
+                                        <Assign DisplayName="This one for erp" sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2207">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">[CurrentMaterialQuantity_Erp]</OutArgument>
                                           </Assign.To>
@@ -2748,7 +2748,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:CommentOut>
-                                  <Assign sap:VirtualizedContainerService.HintSize="1006,82" sap2010:WorkflowViewState.IdRef="Assign_2769">
+                                  <Assign sap:VirtualizedContainerService.HintSize="1006,81" sap2010:WorkflowViewState.IdRef="Assign_2769">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:Int32">[IndexNumber]</OutArgument>
                                     </Assign.To>
@@ -2756,7 +2756,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                       <InArgument x:TypeArguments="x:Int32">[IndexNumber+2]</InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="1006,82" sap2010:WorkflowViewState.IdRef="Assign_2228">
+                                  <Assign sap:VirtualizedContainerService.HintSize="1006,81" sap2010:WorkflowViewState.IdRef="Assign_2228">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:Int32">[RowCount_Result]</OutArgument>
                                     </Assign.To>
@@ -2769,7 +2769,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </Assign>
-                                  <If Condition="[erp_CurrentRow(&quot;MATERIAL DESCRIPTION&quot;).ToString.ToUpper.Contains(&quot;(PHANTOM)&quot;)]" sap:VirtualizedContainerService.HintSize="1006,7627" sap2010:WorkflowViewState.IdRef="If_1258">
+                                  <If Condition="[erp_CurrentRow(&quot;MATERIAL DESCRIPTION&quot;).ToString.ToUpper.Contains(&quot;(PHANTOM)&quot;)]" sap:VirtualizedContainerService.HintSize="1006,7861" sap2010:WorkflowViewState.IdRef="If_1258">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2778,7 +2778,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <If.Then>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="960,4294" sap2010:WorkflowViewState.IdRef="Sequence_4085">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="960,4528" sap2010:WorkflowViewState.IdRef="Sequence_4085">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:String" Name="Username" />
                                           <Variable x:TypeArguments="x:String" Name="Password" />
@@ -2831,7 +2831,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:CommentOut>
-                                        <Sequence DisplayName="New-Sai" sap:VirtualizedContainerService.HintSize="918,3802" sap2010:WorkflowViewState.IdRef="Sequence_5108">
+                                        <Sequence DisplayName="New-Sai" sap:VirtualizedContainerService.HintSize="918,4036" sap2010:WorkflowViewState.IdRef="Sequence_5108">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2862,7 +2862,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                               <InArgument x:TypeArguments="x:Object">["Phantom Pass"]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <If Condition="[RowIndex_Phantom&lt;&gt;-1]" sap:VirtualizedContainerService.HintSize="856,3011" sap2010:WorkflowViewState.IdRef="If_1424">
+                                          <If Condition="[RowIndex_Phantom&lt;&gt;-1]" sap:VirtualizedContainerService.HintSize="856,3245" sap2010:WorkflowViewState.IdRef="If_1424">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2870,7 +2870,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <If.Then>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="822,2829" sap2010:WorkflowViewState.IdRef="Sequence_5128">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="822,3063" sap2010:WorkflowViewState.IdRef="Sequence_5128">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="x:Int32" Name="Counter" />
                                                   <Variable x:TypeArguments="x:String" Name="Syteline_ItemNumber_Phan" />
@@ -2882,7 +2882,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <Assign sap:VirtualizedContainerService.HintSize="780,81" sap2010:WorkflowViewState.IdRef="Assign_2781">
+                                                <Assign sap:VirtualizedContainerService.HintSize="780,82" sap2010:WorkflowViewState.IdRef="Assign_2781">
                                                   <Assign.To>
                                                     <OutArgument x:TypeArguments="x:Int32">[Counter]</OutArgument>
                                                   </Assign.To>
@@ -2890,9 +2890,9 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                     <InArgument x:TypeArguments="x:Int32">0</InArgument>
                                                   </Assign.Value>
                                                 </Assign>
-                                                <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[erp_Currentrow(&quot;ITEM NUMBER&quot;).ToString=PhantomItem_Erp_NxtData]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="780,2620" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_5">
+                                                <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[erp_Currentrow(&quot;ITEM NUMBER&quot;).ToString=PhantomItem_Erp_NxtData]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="780,2853" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_5">
                                                   <ui:InterruptibleDoWhile.Body>
-                                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="744,2454" sap2010:WorkflowViewState.IdRef="Sequence_5132">
+                                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="744,2687" sap2010:WorkflowViewState.IdRef="Sequence_5132">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2926,7 +2926,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                       </ui:LookupDataTable>
-                                                      <If Condition="[RowIndex_SytPhan&lt;&gt;-1]" sap:VirtualizedContainerService.HintSize="682,1138" sap2010:WorkflowViewState.IdRef="If_1425">
+                                                      <If Condition="[RowIndex_SytPhan&lt;&gt;-1]" sap:VirtualizedContainerService.HintSize="682,1139" sap2010:WorkflowViewState.IdRef="If_1425">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2934,33 +2934,33 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                         <If.Then>
-                                                          <Sequence sap:VirtualizedContainerService.HintSize="648,956" sap2010:WorkflowViewState.IdRef="Sequence_5130">
+                                                          <Sequence sap:VirtualizedContainerService.HintSize="648,957" sap2010:WorkflowViewState.IdRef="Sequence_5130">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Syteline_Dt2]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="606,868" sap2010:WorkflowViewState.IdRef="ForEachRow_114">
+                                                            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Syteline_Dt2]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="606,869" sap2010:WorkflowViewState.IdRef="ForEachRow_114">
                                                               <ui:ForEachRow.Body>
                                                                 <ActivityAction x:TypeArguments="sd:DataRow">
                                                                   <ActivityAction.Argument>
                                                                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                                                   </ActivityAction.Argument>
-                                                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="572,753" sap2010:WorkflowViewState.IdRef="Sequence_5136">
+                                                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="572,754" sap2010:WorkflowViewState.IdRef="Sequence_5136">
                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <If Condition="[CurrentRow(&quot;SALES ORDER LINE #&quot;).ToString.equals(erp_Currentrow(&quot;SALES ORDER LINE #&quot;).ToString) And Syteline_Dt2.rows(RowIndex_SytPhan)(&quot;ITEM NUMBER&quot;).ToString.equals(CurrentRow(&quot;ITEM NUMBER&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="510,642" sap2010:WorkflowViewState.IdRef="If_1426">
+                                                                    <If Condition="[CurrentRow(&quot;SALES ORDER LINE #&quot;).ToString.equals(erp_Currentrow(&quot;SALES ORDER LINE #&quot;).ToString) And Syteline_Dt2.rows(RowIndex_SytPhan)(&quot;ITEM NUMBER&quot;).ToString.equals(CurrentRow(&quot;ITEM NUMBER&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="510,643" sap2010:WorkflowViewState.IdRef="If_1426">
                                                                       <If.Then>
-                                                                        <Sequence sap:VirtualizedContainerService.HintSize="476,460" sap2010:WorkflowViewState.IdRef="Sequence_5134">
+                                                                        <Sequence sap:VirtualizedContainerService.HintSize="476,461" sap2010:WorkflowViewState.IdRef="Sequence_5134">
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_2782">
+                                                                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2782">
                                                                             <Assign.To>
                                                                               <OutArgument x:TypeArguments="x:Int32">[RowCount_Result]</OutArgument>
                                                                             </Assign.To>
@@ -3012,14 +3012,41 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                           <InArgument x:TypeArguments="x:Int32">[Counter+1]</InArgument>
                                                         </Assign.Value>
                                                       </Assign>
-                                                      <Assign sap:VirtualizedContainerService.HintSize="682,82" sap2010:WorkflowViewState.IdRef="Assign_2784">
-                                                        <Assign.To>
-                                                          <OutArgument x:TypeArguments="x:String">[PhantomItem_Erp_NxtData]</OutArgument>
-                                                        </Assign.To>
-                                                        <Assign.Value>
-                                                          <InArgument x:TypeArguments="x:String">[Dt_Phantom.rows(RowIndex_Phantom+Counter)("Phantom Item (ERP)").ToString]</InArgument>
-                                                        </Assign.Value>
-                                                      </Assign>
+                                                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="474,314" sap2010:WorkflowViewState.IdRef="TryCatch_62">
+                                                        <TryCatch.Try>
+                                                          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2784">
+                                                            <Assign.To>
+                                                              <OutArgument x:TypeArguments="x:String">[PhantomItem_Erp_NxtData]</OutArgument>
+                                                            </Assign.To>
+                                                            <Assign.Value>
+                                                              <InArgument x:TypeArguments="x:String">[Dt_Phantom.rows(RowIndex_Phantom+Counter)("Phantom Item (ERP)").ToString]</InArgument>
+                                                            </Assign.Value>
+                                                          </Assign>
+                                                        </TryCatch.Try>
+                                                        <TryCatch.Catches>
+                                                          <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="440,151" sap2010:WorkflowViewState.IdRef="Catch`1_62">
+                                                            <sap:WorkflowViewStateService.ViewState>
+                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                              </scg:Dictionary>
+                                                            </sap:WorkflowViewStateService.ViewState>
+                                                            <ActivityAction x:TypeArguments="s:Exception">
+                                                              <ActivityAction.Argument>
+                                                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                                              </ActivityAction.Argument>
+                                                              <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_2795">
+                                                                <Assign.To>
+                                                                  <OutArgument x:TypeArguments="x:String">[PhantomItem_Erp_NxtData]</OutArgument>
+                                                                </Assign.To>
+                                                                <Assign.Value>
+                                                                  <InArgument x:TypeArguments="x:String">[nOthing]</InArgument>
+                                                                </Assign.Value>
+                                                              </Assign>
+                                                            </ActivityAction>
+                                                          </Catch>
+                                                        </TryCatch.Catches>
+                                                      </TryCatch>
                                                       <Assign sap:VirtualizedContainerService.HintSize="682,82" sap2010:WorkflowViewState.IdRef="Assign_2785">
                                                         <Assign.To>
                                                           <OutArgument x:TypeArguments="x:Object">[dt_Result.rows(RowCount_Result)("Material comparision Result")]</OutArgument>
@@ -3108,7 +3135,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                         </Sequence>
                                         <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="918,52" sap2010:WorkflowViewState.IdRef="CommentOut_677">
                                           <ui:CommentOut.Body>
-                                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="592,163" sap2010:WorkflowViewState.IdRef="Sequence_5115">
+                                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,163" sap2010:WorkflowViewState.IdRef="Sequence_5115">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3269,7 +3296,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                 </ui:CommentOut>
                                                 <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="834,52" sap2010:WorkflowViewState.IdRef="CommentOut_657">
                                                   <ui:CommentOut.Body>
-                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,163" sap2010:WorkflowViewState.IdRef="Sequence_5027">
+                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,293" sap2010:WorkflowViewState.IdRef="Sequence_5027">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -6232,7 +6259,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                                 </Sequence>
                                                                 <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="558,52" sap2010:WorkflowViewState.IdRef="CommentOut_575">
                                                                   <ui:CommentOut.Body>
-                                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,634" sap2010:WorkflowViewState.IdRef="Sequence_4388">
+                                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,594" sap2010:WorkflowViewState.IdRef="Sequence_4388">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -6273,7 +6300,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                                                                 </ui:CommentOut>
                                                                 <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="558,52" sap2010:WorkflowViewState.IdRef="CommentOut_675">
                                                                   <ui:CommentOut.Body>
-                                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,163" sap2010:WorkflowViewState.IdRef="Sequence_5107">
+                                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,297" sap2010:WorkflowViewState.IdRef="Sequence_5107">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -6875,18 +6902,10 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                         </Sequence>
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Validation Xamls\DirectBuy.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1164,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_102" UnSafe="False" WorkflowFileName="Validation Xamls\DirectBuy.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="sd:DataTable" x:Key="In_DtSyteline">
-                              <VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="Syteline_Dt2" />
-                            </InArgument>
-                            <InArgument x:TypeArguments="sd:DataTable" x:Key="In_DtDirectBuy">
-                              <VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="DT_DirectBuy" />
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:Int32" x:Key="In_ResultRowcount">
-                              <VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="FinalResult_Rowcount" />
-                            </InArgument>
-                            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="Io_DtResult">
-                              <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="dt_Result" />
-                            </InOutArgument>
+                            <InArgument x:TypeArguments="sd:DataTable" x:Key="In_DtSyteline">[Syteline_Dt2]</InArgument>
+                            <InArgument x:TypeArguments="sd:DataTable" x:Key="In_DtDirectBuy">[DT_DirectBuy]</InArgument>
+                            <InArgument x:TypeArguments="x:Int32" x:Key="In_ResultRowcount">[FinalResult_Rowcount]</InArgument>
+                            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="Io_DtResult">[dt_Result]</InOutArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -7149,13 +7168,6 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                           </ui:ForEachRow>
                         </Sequence>
                         <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dt_FailedData]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="1164,116" sap2010:WorkflowViewState.IdRef="WriteRange_153" SheetName="BOM Analysis" WorkbookPath="[In_Config(&quot;Result_Path&quot;).ToString+Cpq_Validation_Num+&quot;-&quot;+Date_Format_Change+&quot;.xlsx&quot;]" />
-                        <Sequence DisplayName="Extra lines in Sytline" sap:VirtualizedContainerService.HintSize="1164,103" sap2010:WorkflowViewState.IdRef="Sequence_5153">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                        </Sequence>
                         <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dt_FailedData2]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="1164,88" sap2010:WorkflowViewState.IdRef="ReadRange_205" SheetName="BOM Analysis" WorkbookPath="[In_Config(&quot;Result_Path&quot;).ToString+Cpq_Validation_Num+&quot;-&quot;+Date_Format_Change+&quot;.xlsx&quot;]" />
                         <ui:FilterDataTable DataTable="[dt_FailedData2]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="1164,161" sap2010:WorkflowViewState.IdRef="FilterDataTable_37" OutputDataTable="[dt_FailedData2]" SelectColumnsMode="Remove">
                           <ui:FilterDataTable.Filters>
@@ -7238,7 +7250,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                 </ui:ForEachRow>
               </Sequence>
             </Sequence>
-            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="1384,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_11" Path="[In_Config(&quot;BOM_FilePath&quot;).ToString+&quot;BOM Analysis Tracker-&quot;+Date_Format_Change+&quot;.xlsx&quot;]" />
+            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="1384,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_13" Path="[In_Config(&quot;BOM_FilePath&quot;).ToString+&quot;BOM Analysis Tracker-&quot;+Date_Format_Change+&quot;.xlsx&quot;]" />
             <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1384,52" sap2010:WorkflowViewState.IdRef="KillProcess_10" ProcessName="excel">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -16525,7 +16537,7 @@ Select MatQ_Merge.rows.add(a,b,c,e,f,g,h)
                 </Sequence>
               </Sequence>
             </Sequence>
-            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="1384,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_12" Path="[In_Config(&quot;Routing_FilePath&quot;).ToString+&quot;Routing Analysis Tracker-&quot;+Date_Format_Change+&quot;.xlsx&quot;]" />
+            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="1384,80" sap2010:WorkflowViewState.IdRef="DeleteFileX_14" Path="[In_Config(&quot;Routing_FilePath&quot;).ToString+&quot;Routing Analysis Tracker-&quot;+Date_Format_Change+&quot;.xlsx&quot;]" />
             <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1384,52" sap2010:WorkflowViewState.IdRef="KillProcess_12" ProcessName="excel">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
